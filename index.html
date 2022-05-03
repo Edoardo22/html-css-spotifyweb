@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4d443adde.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -161,16 +162,33 @@
                     <div class="color-grey">Brano Nome</div>
                 </div>
                 <div class="botbar-left-icon flex ">
-                    <a href=""> <img src="img/heart-solid.svg" alt=""></a>
-                    <a href=""><img src="img/folder-solid.svg" alt=""></a>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
-            <div class="botbar-center">
-                <div class="music-line"></div>
+            <div class="flex flex-shrink flex-column">
+                <div class="flex">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play big-icon"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="flex flex grow">
+                    <div class="flex-shrink"><span>0:25</span></div>
+                    <div class="flex-grow"><progress id="" value="32" max="100"></progress></div>
+                    <div class="flex-shrink"><span>4:35</span></div>
+
+                </div>
+
             </div>
-            <div class="botbar-right">
-                <div class="music-line"></div>
+            <div class="flex flex grow">
+                <div class="flex-shrink"><span>0:25</span></div>
+                <div class="flex-grow"><progress id="" value="32" max="100"></progress></div>
+                <div class="flex-shrink"><span>4:35</span></div>
+
             </div>
+            
         </div>
     </div>
 </body>
