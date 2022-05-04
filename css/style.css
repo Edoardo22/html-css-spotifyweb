@@ -26,7 +26,9 @@
 .flex-column {
     flex-direction: column;
 }
-
+.item-center{
+    align-items: center;
+}
 .justify-bt {
     justify-content: space-between;
 }
@@ -89,15 +91,17 @@
 .mb-none-list li{
     padding-top:15px;
 }
+.list-playlist{
+    overflow: auto;
+    flex-grow: 1;
+}
 .profile-img{
     background-image: url("../img/profile.svg");
     width: 30px;
     background-size: cover;
     height: 30px;
 }
-.profile{
-    padding-top: 300px;
-}
+
 .profile img{
     width: 30px;
 }
@@ -155,6 +159,7 @@
 }
 .cards{
     padding-top: 50px;
+    overflow-x: auto;
 }
 .pad{
     padding-top:50px ;
@@ -189,11 +194,44 @@
 }
 
 i{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 30px;
     filter: invert(1);
 }
+
+.botbar-left i{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .big-icon{
-    font-size: 36px;
+    font-size: 45px;
+    
+}
+.prog-bar-big{
+    width: 50%;
+    max-width: 800px;
+    padding: 2px;
+    margin-top: 10px;
+}
+.prog-bar-small{
+    width: 30%;
+    max-width: 300px;
+    padding: 2px;
+}
+
+.bar{
+    background-color: grey;
+    height: 5px;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bar2{
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    border-radius: 8px;
 }
