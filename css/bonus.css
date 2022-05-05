@@ -419,7 +419,9 @@ i {
     padding-left: 5px;
     padding-right: 5px;
 }
-
+.block{
+    display: none;
+}
 @media screen and (max-width: 1100px) {
 
     .cards {
@@ -536,11 +538,11 @@ i {
 
     .bg-black {
         background-image: url("../img/logo-small.svg");
-        width: 30px;
+        width: 41px;
         background-color: black;
         background-repeat: no-repeat;
         background-position: center;
-        left: 8px;
+        left: 0px;
     }
 
     .big-icon {
@@ -574,8 +576,21 @@ i {
         width: 40px;
         margin-left: 5px;
     }
+    .prog-bar-small{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
 }
-
+@media screen and (max-width: 400px){
+    .botbar-left img{
+        display: none;
+    }
+    .botbar-left-icon{
+        display: none;
+    }
+}
 @media screen and (max-height: 600px){
     .topbar{
         display: none;

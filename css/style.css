@@ -544,11 +544,11 @@ i {
 
     .bg-black {
         background-image: url("../img/logo-small.svg");
-        width: 30px;
+        width: 41px;
         background-color: black;
         background-repeat: no-repeat;
         background-position: center;
-        left: 8px;
+        left: 0px;
     }
 
     .big-icon {
